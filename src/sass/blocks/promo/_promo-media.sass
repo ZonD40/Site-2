@@ -1,0 +1,37 @@
+@media (max-width: 1200px)
+
+@media (max-width: 992px)
+
+@media (max-width: 768px)
+	.promo
+		hr
+			top: 217px
+		&__subheader
+			flex-direction: column
+			justify-content: start
+			height: auto
+			padding-top: 10px
+			div
+					margin-bottom: 10px
+		&__menu
+			flex-direction: column
+			justify-content: start
+			padding-top: 22px
+			overflow: hidden
+			&-item
+				visibility: hidden
+				opacity: 0
+				margin-bottom: 15px
+				transition: all 0.5s
+				&_active
+					visibility: visible
+					opacity: 1
+			&-button
+				display: block
+				margin-bottom: 10px
+		&__wrapper
+			height: 530px
+			padding-top: 135px
+@media (max-width: 576px) 
+	.promo
+		padding-top: 10px
